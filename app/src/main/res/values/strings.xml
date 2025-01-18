@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuickAccountManager</string>
+    <string name="deposit">Deposit</string>
+    <string name="_100_r">100 R$</string>
+    <string name="_50_r">50 R$</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="amount">Amount:</string>
+    <string name="bank_money_0_r">Bank Money: 0 R$</string>
+    <string name="status">Status</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="scroll_viewac1">scrollView</string>
+    <string name="amount_r">Amount (R$)</string>
+    <string name="helper_amount">Ex: 10</string>
+</resources>
