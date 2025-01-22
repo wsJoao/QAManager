@@ -113,4 +113,10 @@ public class MainActivity extends AppCompatActivity {
         TextView textMyMoney = findViewById(R.id.textMyMoney);
         textMyMoney.setText("Bank Money: " + bankAccount.getBalance() + " R$");
     }
+
+    public void clearAmount(View view) {
+        transaction.clearAmount();
+        updateUI(view);
+
+    }
 }

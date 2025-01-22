@@ -115,7 +115,7 @@
             android:text="@string/deposit"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline4" />
+            app:layout_constraintTop_toBottomOf="@+id/btnClear" />
 
         <TextView
             android:id="@+id/textStatus"
@@ -195,6 +195,17 @@
             app:layout_constraintTop_toTopOf="@+id/guideline2"
             app:srcCompat="@android:drawable/ic_menu_send"
             tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="clearAmount"
+            android:text="@string/btn_clear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
